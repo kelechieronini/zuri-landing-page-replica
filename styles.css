@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Averta Demo PE Cutted Demo", "Poppins";
+}
+.hero-container {
+  height: 700px;
+  background: url(./assets/images/hero-bg.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.logo-section {
+  padding: 4.5rem 0;
+}
+.logo-section img {
+  display: block;
+  margin: 0 auto;
+}
+.hero-content {
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 700px;
+}
+a {
+  color: #e7332b !important;
+  text-decoration: none !important;
+}
+.hero-content h2 {
+  color: #514949;
+  font-size: 2rem;
+  /* line-height: 3rem; */
+  margin-bottom: 2.5rem;
+}
+.hero-content p {
+  color: #514949;
+  opacity: 0.9;
+  font-size: 1.03rem;
+  line-height: 1.5rem;
+  margin-bottom: 5.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.hero-btn {
+  font-size: 1rem;
+  padding: 12px 30px;
+  border: 1px solid #e7332b;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: #e7332b;
+  color: white;
+  margin-right: 1.5rem;
+}
+.btn-red:hover {
+  background-color: white;
+  color: #e7332b;
+}
+.btn-white {
+  background-color: white;
+  color: #e7332b;
+}
+.btn-white:hover {
+  background-color: #e7332b;
+  color: white;
+}
+
+.program-content h3 {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: normal;
+  text-align: center;
+
+  color: #e7332b;
+  margin-top: 9rem;
+}
+.program-content p.slogan {
+  font-size: 25px;
+  line-height: 38px;
+  color: #514949;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 65px;
+}
+.program-card-container {
+  display: flex;
+  /* position: relative; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 4rem;
+  /* border: 1px solid red; */
+}
+.program-card {
+  text-align: left;
+  padding: 61px 47px 82px 36px;
+  width: 32%;
+  background-color: #fffafa;
+}
+
+.program-card img {
+  margin-bottom: 50px;
+}
+.program-card p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #514949;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+.footer-container {
+  margin: 0 70px;
+}
+.footer-details {
+  margin-top: 16em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  /* padding: 20px; */
+  justify-content: space-between;
+}
+.footer-details h4 {
+  color: #514949;
+  font-size: 18px;
+  line-height: 36px;
+}
+.footer-details p {
+  color: #514949;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.9;
+}
+.details1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer hr {
+  opacity: 0.2;
+  border: 0.7px solid #514949;
+}
+footer .copyright {
+  text-align: center;
+  margin-top: 3em;
+  padding-bottom: 90px;
+  color: #514949;
+  font-weight: bold;
+}
+.fa-brands {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.fa-facebook {
+  color: #4267b2;
+}
+.fa-instagram {
+  color: #fb3958;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-linkedin {
+  color: #0a66c2;
+}
+/* .card-bg-left {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: -150px;
+  top: -80px;
+  z-index: -1;
+}
+.card-bg-right {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  right: -120px;
+  top: -80px;
+  z-index: -1;
+} */
+@media screen and (max-width: 992px) {
+  .program-card-container {
+    flex-direction: column;
+  }
+  .program-card {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .btn-red {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-details {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-logo {
+    width: 150%;
+  }
+  .details {
+    margin-bottom: 25px;
+  }
+  .details3 {
+    text-align: center;
+  }
+}
